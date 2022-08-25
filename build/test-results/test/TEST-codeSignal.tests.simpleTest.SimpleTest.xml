@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="codeSignal.tests.simpleTest.SimpleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-25T12:36:22" hostname="Admins-MBP" time="1.396">
+  <properties/>
+  <testcase name="addCommentTest[0](text post, comment)" classname="codeSignal.tests.simpleTest.SimpleTest" time="1.396"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1661430977866	geckodriver	INFO	Listening on 127.0.0.1:50760
+1661430978098	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62719" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f3/8r2qvb117ynb7ck_bstrjj580000gp/T/rust_mozprofileY6B9hz"
+1661430978599	Marionette	INFO	Marionette enabled
+1661430978634	Marionette	INFO	Listening on port 51129
+WebDriver BiDi listening on ws://localhost:62719
+Read port: 51129
+1661430978997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f3/8r2qvb117ynb7ck_bstrjj580000gp/T/rust_mozprofileY6B9hz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62719/devtools/browser/c2105f14-177e-4589-9dbd-281bfe6e7eef
+Aug 25, 2022 4:36:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cs-qa-task-frontend.vercel.app"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cs-qa-task-frontend.vercel.app"
+1661430983463	Marionette	INFO	Stopped listening on port 51129
+]]></system-err>
+</testsuite>
